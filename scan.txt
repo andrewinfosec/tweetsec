@@ -1,0 +1,21 @@
+#
+# TCP port scanner in < 140 characters by andrewinfosec@gmail.com
+#
+# $ gem install eventmachine
+# $ sudo ulimit -n 1025  # required on OS X; also reduce the value 1024 below if necessary.
+# $ ruby ./scan.txt 10.0.1.1
+# 53
+#
+# --
+#
+# require 'rubygems'
+# require 'eventmachine'
+#
+# EM.run {
+#   (1..1024).each {|p|
+#     c = EM::Protocols::TcpConnectTester.test(ARGV[0], p)
+#     c.callback{p p}
+#   }
+# }
+#
+require'rubygems';require'eventmachine';EM.run{(1..1024).each{|p|c=EM::Protocols::TcpConnectTester.test(ARGV[0],p);c.callback{p p}}}
