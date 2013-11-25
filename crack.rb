@@ -1,7 +1,7 @@
 #
 # Unix password cracker in < 140 characters by http://andrewinfosec.com
 #
-# $ sudo ruby ./crack.rb </etc/shadow
+# $ sudo ruby ./crack.rb < /etc/shadow
 # "root"
 # "birthday"
 #
