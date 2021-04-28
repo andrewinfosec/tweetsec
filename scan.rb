@@ -1,5 +1,5 @@
 #
-# TCP port scanner in < 140 characters by http://andrewinfosec.com
+# TCP port scanner in < 140 characters by https://andrewinfosec.com
 #
 # $ gem install eventmachine
 # $ sudo ulimit -n 1025  # required on OS X; also reduce the value 1024 below if necessary.
