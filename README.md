@@ -1,6 +1,6 @@
 ### tweetsec security toolset: Classic computer security tools in < 140 characters
 
-By Andrew Stewart ([http://andrewinfosec.com](http://andrewinfosec.com))
+By Andrew Stewart ([http://andrewinfosec.com](https://andrewinfosec.com))
 
 Contains:
 
