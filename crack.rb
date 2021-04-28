@@ -1,5 +1,5 @@
 #
-# Unix password cracker in < 140 characters by http://andrewinfosec.com
+# Unix password cracker in < 140 characters by https://andrewinfosec.com
 #
 # $ sudo ruby ./crack.rb < /etc/shadow
 # "root"
