@@ -1,5 +1,5 @@
 #
-# Password sniffer in < 140 characters by http://andrewinfosec.com
+# Password sniffer in < 140 characters by https://andrewinfosec.com
 #
 # (install libpcap and rubypcap)
 # $ sudo ruby ./sniff.rb -i en1 -s 2000 dst port telnet or exec or login or shell
